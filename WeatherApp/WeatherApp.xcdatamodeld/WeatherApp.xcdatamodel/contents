@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22225" systemVersion="23B74" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CashCollection" representedClassName="CashCollection" syncable="YES" codeGenerationType="class">
+        <attribute name="temperaturePerHourArray" optional="YES" attributeType="String"/>
+        <attribute name="timeArray" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="CashTable" representedClassName="CashTable" syncable="YES" codeGenerationType="class">
+        <attribute name="dayArray" optional="YES" attributeType="String"/>
+        <attribute name="maxTempPerDay" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="minTempPerDay" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="CashView" representedClassName="CashView" syncable="YES" codeGenerationType="class">
+        <attribute name="maxTemp" optional="YES" attributeType="String"/>
+        <attribute name="minTemp" optional="YES" attributeType="String"/>
+        <attribute name="place" optional="YES" attributeType="String"/>
+        <attribute name="temp" optional="YES" attributeType="String"/>
+        <attribute name="type" optional="YES" attributeType="String"/>
+    </entity>
+</model>
